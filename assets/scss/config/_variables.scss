@@ -1,0 +1,28 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+   --header-height: 3.5rem;
+
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --first-color: hsl(236, 100%, 48%);
+   --black-color: hsl(0, 0%, 0%);
+   --white-color: hsl(0, 0%, 100%);
+   --body-color: hsl(0, 0%, 100%);
+   --nav-shadow: 0 4px 16px hsla(0, 0%, 0%, .3);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: "Montserrat", sans-serif;
+
+   --normal-font-size: .938rem;
+   --small-font-size: .813rem;
+
+   // Responsive typography
+   @media screen and (min-width: 1150px){
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+   }
+}
