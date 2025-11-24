@@ -1,0 +1,16 @@
+========== NAVBAR ==========
+.nav__link
+Home - Work - Prices - Projects - Contact
+
+#nav-copy
+fire@email.com
+
+#nav-text
+Copy email
+
+========== COPY EMAIL JS ==========
+// Use the clipboard API to copy text
+Copied ✅
+
+// Restore the original text
+Copy email
